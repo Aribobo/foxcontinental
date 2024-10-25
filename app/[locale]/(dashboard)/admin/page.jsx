@@ -7,7 +7,7 @@ import Swal from 'sweetalert2';
 import { useRouter } from 'next/navigation'; 
 import{useSession} from "next-auth/react"
 
-const consignment = () => {
+const Consignment = () => {
     const [logistics, setLogistics] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState('');
@@ -270,4 +270,4 @@ const consignment = () => {
   );
 };
 
-export default consignment;
+export default Consignment;
