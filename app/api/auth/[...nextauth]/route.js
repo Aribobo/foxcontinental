@@ -12,10 +12,10 @@ providers:[
        },
        async authorize(credentials,req) {
            const{email,password} = credentials;
-           if(email!=="stboystan@gmail.com" || password!=="82434895@stan")
+           if(email!=="process.env.MAIL" || password!=="process.env.PWD")
                 throw new Error('invalid credentials');
            
-           if( email=="stboystan@gmail.com" && password=="82434895@stan");
+           if( email=="process.env.MAIL" && password=="process.env.PWD");
 
           return{
            id:"1996", name: "Balaga Effect ", email: "fakeemail@balaga.com"
