@@ -2,7 +2,7 @@ import React from "react";
 import axios from "axios";
 import { notFound } from "next/navigation";
 import initTranslations from "@/app/i18n";
-import Track from "@/app/components/track";
+import Track from "@/app/components/Track";
 const Order = async ({ params }) => {
   const { locale, trackId } = params;
   const { t } = await initTranslations(locale, ["hero"]);
