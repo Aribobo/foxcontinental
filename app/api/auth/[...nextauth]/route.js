@@ -27,7 +27,7 @@ providers:[
 pages:{
    signIn:"/auth/signin"
 },
-secret:process.env.NEXTAUTH_SECRET
+secret:process.env.AUTH_SECRET
 
 })
 export { handler as GET, handler as POST }
