@@ -4,9 +4,10 @@ const handler = NextAuth({
 session:{
    jwt:true,
 },
-
+secret:process.env.NEXTAUTH_SECRET,
 providers:[
    CredentialsProvider({
+      
        type:"credentials",
        credentials:{
        },
@@ -27,7 +28,6 @@ providers:[
 pages:{
    signIn:"/auth/signin"
 },
-secret:process.env.AUTH_SECRET
 
 })
 export { handler as GET, handler as POST }
