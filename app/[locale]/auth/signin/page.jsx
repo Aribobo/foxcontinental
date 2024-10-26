@@ -3,7 +3,7 @@ import {signIn} from "next-auth/react"
 import { useState } from "react";
 import {useRouter} from 'next/navigation'
 
-const Signin = (props) => {
+const Signin = () => {
     const[userInfo,setUserInfo] = useState({email:'',password:''})
     const router = useRouter();
     const handleSubmit = async (e) => {
