@@ -207,7 +207,7 @@ const Order = async ({ params }) => {
     console.error("Error fetching order data:", error);
 
     return (
-      <div className="w-full h-full bg-white">
+      <div className=" bg-white">
         <div className=" text-bold text-2xl text-center justify-center lg:text-4xl md:text-4xl mb-10">
           <br></br>
           <br></br>
@@ -220,8 +220,9 @@ const Order = async ({ params }) => {
             <span className="text-[#fd7062]">{t("track")}..........</span>
           </p>
           <p className="text-2xl text-[#1f425d] mb-8">{t("error")}</p>
-          <div className="ml-10 text-xl justify-center items-center">
+          <div className="text-xl justify-center items-center">
             <Track />
+
           </div>
         </div>
       </div>
