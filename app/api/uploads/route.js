@@ -17,7 +17,7 @@ export async function  POST (req, res) {
      email:body.email,
      trackId:body.trackId,
      shipmentDate:body.shipmentDate,
-     status:body.status,
+     stand:body.stand,
      packageName:body.packageName,
      deliveryDate:body.deliveryDate,
      weight:body.weight,
