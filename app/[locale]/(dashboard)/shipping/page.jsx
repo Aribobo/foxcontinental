@@ -6,7 +6,7 @@ import swal from "sweetalert2";
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation'; 
 import{useSession} from "next-auth/react"
-const url = "/api/uploads";
+const url = "https://foxcontinental.vercel.app/api/uploads";
 
 const ShippingForm = () => {
   const [stand, setStand] = useState("");
