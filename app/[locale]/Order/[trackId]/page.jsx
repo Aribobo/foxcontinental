@@ -207,7 +207,7 @@ const Order = async ({ params }) => {
     console.error("Error fetching order data:", error);
 
     return (
-      <div className=" bg-white">
+      <div className="w-full bg-white">
         <div className=" text-bold text-2xl text-center justify-center lg:text-4xl md:text-4xl mb-10">
           <br></br>
           <br></br>
