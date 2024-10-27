@@ -15,7 +15,7 @@ const Track = () => {
         onChange={(e) => setTrackId(e.target.value)}
         type="text"
         id="Track"
-        className="mt-1 ml-2 lg:w-45 px-3 py-2 pb-2 border border-[#1f425d] rounded-md shadow-sm focus:outline-none focus:ring-[#4ab9cf] focus:border-[#4ab9cf] sm:text-sm"
+        className="mt-1 ml-2 w-25 lg:w-45 px-3 py-2 pb-2 border border-[#1f425d] rounded-md shadow-sm focus:outline-none focus:ring-[#4ab9cf] focus:border-[#4ab9cf] sm:text-sm"
         placeholder="l82434895kh"
       />
           <Link href={`/Order/${trackId}`}>
