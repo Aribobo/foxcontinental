@@ -6,7 +6,7 @@ import swal from "sweetalert2";
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation'; 
 import{useSession} from "next-auth/react"
-const url = "https://foxcontinental.vercel.app/api/uploads";
+
 
 const ShippingForm = () => {
   const [stand, setStand] = useState("");
@@ -27,6 +27,7 @@ const ShippingForm = () => {
   const [loader, setLoader] = useState(false);
   const { status, data: session } = useSession();
   const router = useRouter();
+  const url = "/api/uploads";
   useEffect(() => {
     if (status === 'unauthenticated') {
       router.replace('/auth/signin'); // Redirect to sign-in page
