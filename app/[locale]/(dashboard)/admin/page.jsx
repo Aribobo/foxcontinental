@@ -55,7 +55,7 @@ const Consignment = () => {
             return [
               {
               
-                status: document.getElementById("swal-input1").value,
+                stand: document.getElementById("swal-input1").value,
                 deliveryDate: document.getElementById("swal-input3").value,
                 packageLocation: document.getElementById("swal-input2").value,
                 remark: document.getElementById("swal-input4").value,
@@ -214,7 +214,7 @@ const Consignment = () => {
                 {logistic.shipmentDate}
                 </td>
                 <td className="px-6 py-4">
-                {logistic.status}
+                {logistic.stand}
                 </td>
                 <td className="px-6 py-4">
                 {logistic.packageName}

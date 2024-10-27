@@ -66,7 +66,7 @@ const Order = async ({ params }) => {
                       {t("status")}
                     </p>
                     <p className="text-center py-8 text-2xl">
-                      {logistic.status}
+                      {logistic.stand}
                     </p>
                   </div>
                 </div>

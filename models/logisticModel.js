@@ -20,7 +20,7 @@ const logisticSchema = new Schema(
       type: String,
       required: true,
     },
-    status: {
+    stand: {
       type: String,
       required: true,
     },

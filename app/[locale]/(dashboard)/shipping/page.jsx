@@ -9,6 +9,7 @@ import{useSession} from "next-auth/react"
 const url = "/api/uploads";
 
 const ShippingForm = () => {
+  const [stand, setStand] = useState("");
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [trackId, setTrackId] = useState("");
@@ -43,7 +44,7 @@ const ShippingForm = () => {
         email,
         trackId,
         shipmentDate,
-        status,
+        stand,
         packageName,
         deliveryDate,
         weight,
@@ -151,8 +152,8 @@ const ShippingForm = () => {
             Status
           </label>
           <input
-            value={status}
-            onChange={(e) => setStatus(e.target.value)}
+            value={stand}
+            onChange={(e) => setStand(e.target.value)}
             type="text"
             id="Status"
             className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
