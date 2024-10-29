@@ -4,17 +4,17 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 
 const Blog = () => {
-  const {t} = useTranslation();
+  const { t } = useTranslation();
   return (
     <div className="w-full bg-[#fbf9fa] mt-4">
       <div id="blogs" className="w-full h-auto text-center">
         <div className="text-bold text-2xl text-center justify-center lg:text-4xl md:text-4xl">
           <br></br>
-          <span className="text-[#1f425d]">{t('blog')} & </span>
-          <span className="text-[#4ab9cf] ">{t('insight')}</span>
+          <span className="text-[#1f425d]">{t("blog")} & </span>
+          <span className="text-[#4ab9cf] ">{t("insight")}</span>
           <p className="pb-2  mt-2 mb-2 text-2xl  text-[#ff6a00] text-bold ">
             {" "}
-            <span className="text-[#fd7062]">{t('news')}</span>
+            <span className="text-[#fd7062]">{t("news")}</span>
           </p>
         </div>
         <div className="ml-4 mr-4 mb-12 grid grid-cols md:grid-cols-2  sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -26,10 +26,8 @@ const Blog = () => {
             hover:text-white lg:h-90 md:h-auto sm:h-auto"
           >
             <div className="py-4 pl-8 ">
-              <p className=" text-start mb-2 font-bold">{t('logistic')}</p>
-              <p className="text-start text-xl">
-              {t('logi')}
-              </p>
+              <p className=" text-start mb-2 font-bold">{t("logistic")}</p>
+              <p className="text-start text-xl">{t("logi")}</p>
             </div>
             <div className="mb-4 grid grid-cols md:grid-cols-2 sm:grid-cols-2 lg:grid-cols-2 justify-around w-full mt-10">
               <div className=""> July 02, 2024</div>
@@ -44,11 +42,8 @@ const Blog = () => {
             hover:text-white lg:h-90 md:h-auto sm:h-auto"
           >
             <div className="py-4 pl-8">
-              <p className=" text-start mb-2 font-bold">{t('transport')}</p>
-              <p className="text-start text-xl">
-              {t('trans')}
-              </p>
-             
+              <p className=" text-start mb-2 font-bold">{t("transport")}</p>
+              <p className="text-start text-xl">{t("trans")}</p>
             </div>
             <div className="mb-4 grid grid-cols md:grid-cols-2 sm:grid-cols-2 lg:grid-cols-2 justify-around w-full mt-10">
               <div className=""> September 23, 2023</div>
@@ -63,10 +58,8 @@ const Blog = () => {
             hover:text-white lg:h-90 md:h-auto sm:h-auto"
           >
             <div className="py-4 px-8">
-              <p className=" text-start mb-2 font-bold">{t('delivery')}</p>
-              <p className="text-start text-xl">
-              {t('deliv')}
-              </p>
+              <p className=" text-start mb-2 font-bold">{t("delivery")}</p>
+              <p className="text-start text-xl">{t("deliv")}</p>
             </div>
             <div className="mb-4 grid grid-cols md:grid-cols-2 sm:grid-cols-2 lg:grid-cols-2 justify-around w-full mt-10">
               <div className=""> february 12, 2021</div>

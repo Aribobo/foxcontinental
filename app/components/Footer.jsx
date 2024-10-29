@@ -7,7 +7,7 @@ import { AiOutlineMail } from "react-icons/ai";
 import Link from "next/link";
 import { useTranslation } from "react-i18next";
 const Footer = () => {
-  const {t} = useTranslation();
+  const { t } = useTranslation();
   return (
     <>
       {" "}
@@ -49,38 +49,38 @@ const Footer = () => {
           >
             <ul>
               <p className=" flex text-start font-bold text-2xl pb-2 text-[#fd7062] ">
-                {t('service')}
+                {t("service")}
               </p>
               <li className="  text-start  text-xl  font-semibold py-2 flex hover:text-[#4ab9cf] ">
-              <Link href="/#air">   {t('air freight')} </Link>
+                <Link href="/#air"> {t("air freight")} </Link>
               </li>
               <li className=" text-start  text-xl  font-semibold py-2 flex hover:text-[#4ab9cf]">
-              <Link href="/#ocean"> {t('ocean freight')}</Link>
+                <Link href="/#ocean"> {t("ocean freight")}</Link>
               </li>
               <li className="flex text-start  items-center  text-xl  font-semibold py-2 hover:text-[#4ab9cf]">
-              <Link href="/#warehouse">  {t('warehousing')}</Link>
+                <Link href="/#warehouse"> {t("warehousing")}</Link>
               </li>
               <li className="flex text-start  items-center  text-xl  font-semibold py-2 hover:text-[#4ab9cf]">
-              <Link href="/#custom">  {t('custom')}</Link>
+                <Link href="/#custom"> {t("custom")}</Link>
               </li>
             </ul>
           </div>
-          <div 
+          <div
             id="footer"
             className="p-2 flex justify-center items-center text-white"
           >
             <ul>
               <p className=" flex text-start font-bold text-2xl pb-2 text-[#fd7062] ">
-              {t('company')}
+                {t("company")}
               </p>
               <li className="  text-start  text-xl  font-semibold py-2 flex  hover:text-[#4ab9cf]">
-              <Link href="/#about"> {t('about')}</Link>
+                <Link href="/#about"> {t("about")}</Link>
               </li>
               <li className=" text-start  text-xl  font-semibold py-2 flex hover:text-[#4ab9cf] ">
-              <Link href="/#blogs"> {t('blog')}</Link>
+                <Link href="/#blogs"> {t("blog")}</Link>
               </li>
               <li className="flex text-start  items-center  text-xl  font-semibold py-2 hover:text-[#4ab9cf]">
-              <Link href="/#testimonials">{t('testimonial')}</Link>
+                <Link href="/#testimonials">{t("testimonial")}</Link>
               </li>
             </ul>
           </div>
@@ -91,24 +91,24 @@ const Footer = () => {
           >
             <ul>
               <p className=" flex text-start font-bold text-2xl pb-2 text-[#fd7062] ">
-              {t('contact')}
+                {t("contact")}
               </p>
               <li className="  text-start  text-xl  font-semibold py-2 flex ">
-               (Company number)
+                (Company number)
               </li>
               <li className=" text-start  text-xl  font-semibold py-2 flex ">
                 (company adress)
               </li>
               <li className="flex text-start  items-center  text-xl  font-semibold py-2 ">
-              (Company email)
+                (Company email)
               </li>
             </ul>
           </div>
         </div>
         <div className="flex flex-col justify-center items-center text-center text-white p-5 bg-[#1f425d]">
           <h5 className="  font-semibold">
-            © 2024 Fox<span className="text-[#fd7062]">continental</span> || All rights
-            reserved
+            © 2024 Fox<span className="text-[#fd7062]">continental</span> || All
+            rights reserved
           </h5>
         </div>
       </div>

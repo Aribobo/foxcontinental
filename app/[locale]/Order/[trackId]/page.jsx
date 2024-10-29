@@ -88,7 +88,7 @@ const Order = async ({ params }) => {
               </div>
             </div>
             <br></br>
-            <div className=" mt-8 ml-4 mr-4  grid grid-cols md:grid-cols  sm:grid-cols  lg:grid-cols-3 gap-4">
+            <div className=" mt-8 ml-4 mr-4  grid grid-cols md:grid-cols sm:grid-cols lg:grid-cols-3 gap-4">
               <div
                 className="relative group shadow-gray-600 overflow-hidden  ml-2 mr-2 hover:shadow 
            bg-white text-[#1f425d] hover:bg-[#1f425d]
@@ -222,7 +222,6 @@ const Order = async ({ params }) => {
           <p className="text-2xl text-[#1f425d] mb-8">{t("error")}</p>
           <div className="text-xl justify-center items-center">
             <Track />
-
           </div>
         </div>
       </div>

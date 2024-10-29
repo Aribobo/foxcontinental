@@ -1,9 +1,9 @@
-'use client';
+"use client";
 
-import { useRouter } from 'next/navigation';
-import { usePathname } from 'next/navigation';
-import { useTranslation } from 'react-i18next';
-import i18nConfig from '@/i18nConfig';
+import { useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
+import { useTranslation } from "react-i18next";
+import i18nConfig from "@/i18nConfig";
 
 export default function LanguageChanger() {
   const { i18n } = useTranslation();
@@ -11,7 +11,7 @@ export default function LanguageChanger() {
   const router = useRouter();
   const currentPathname = usePathname();
 
-  const handleChange = e => {
+  const handleChange = (e) => {
     const newLocale = e.target.value;
 
     // set cookie for next-i18n-router
@@ -25,7 +25,7 @@ export default function LanguageChanger() {
       currentLocale === i18nConfig.defaultLocale &&
       !i18nConfig.prefixDefault
     ) {
-      router.push('/' + newLocale + currentPathname);
+      router.push("/" + newLocale + currentPathname);
     } else {
       router.push(
         currentPathname.replace(`/${currentLocale}`, `/${newLocale}`)
@@ -36,14 +36,28 @@ export default function LanguageChanger() {
   };
 
   return (
-    <div className='ml-20 mr-4'>
-    <select onChange={handleChange} value={currentLocale} className="p-2 text-white bg-[#fd7062] rounded-sm">
-      <option  className="bg-[#1f425d]"value="en">English</option>
-      <option className="bg-[#1f425d]" value="fr">Français</option>
-      <option className="bg-[#1f425d]" value="de">Deutsch</option>
-      <option className="bg-[#1f425d]" value="pt">Português</option>
-      <option className="bg-[#1f425d]" value="es">Español </option>
-    </select>
+    <div className="ml-20 mr-4">
+      <select
+        onChange={handleChange}
+        value={currentLocale}
+        className="p-2 text-white bg-[#fd7062] rounded-sm"
+      >
+        <option className="bg-[#1f425d]" value="en">
+          English
+        </option>
+        <option className="bg-[#1f425d]" value="fr">
+          Français
+        </option>
+        <option className="bg-[#1f425d]" value="de">
+          Deutsch
+        </option>
+        <option className="bg-[#1f425d]" value="pt">
+          Português
+        </option>
+        <option className="bg-[#1f425d]" value="es">
+          Español{" "}
+        </option>
+      </select>
     </div>
   );
 }

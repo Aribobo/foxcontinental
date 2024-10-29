@@ -47,7 +47,7 @@ const Navbar = () => {
     };
     window.addEventListener("scroll", handleShadow);
   }, []);
- 
+
   return (
     <div
       style={{ backgroundColor: `${NavBg}` }}
@@ -58,13 +58,13 @@ const Navbar = () => {
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-      <div
-            style={{ color: `${LinkColor}` }}
-            onClick={handleNav}
-            className="md:hidden"
-          >
-            <RiMenu3Fill size={28} />
-          </div>
+        <div
+          style={{ color: `${LinkColor}` }}
+          onClick={handleNav}
+          className="md:hidden"
+        >
+          <RiMenu3Fill size={28} />
+        </div>
         <Link href="/#home">
           <p
             style={{ color: `${LinkColor}` }}
@@ -79,33 +79,33 @@ const Navbar = () => {
             </img> */}
           </p>
         </Link>
-          
+
         <div>
-        <LanguageChanger/>
+          <LanguageChanger />
           <ul style={{ color: `${LinkColor}` }} className="hidden md:flex">
             <Link href="/#home">
               <li className="ml-10 font-bold uppercase hover:border-b py-2">
-             {t('home')}
+                {t("home")}
               </li>
             </Link>
             <Link href="/#about">
               <li className="ml-10 font-bold uppercase hover:border-b py-2">
-              {t('about')}
+                {t("about")}
               </li>
             </Link>
             <Link href="/#services ">
               <li className="ml-10 font-bold uppercase hover:border-b py-2">
-                {t('service')}
+                {t("service")}
               </li>
             </Link>
             <Link href="/#footer">
               <li className="ml-10 font-bold uppercase hover:border-b py-2">
-              {t('contact')}
+                {t("contact")}
               </li>
             </Link>
             <Link href="/#home">
               <li className="ml-10 font-bold uppercase hover:border-b py-2">
-              {t('tracking')}
+                {t("tracking")}
               </li>
             </Link>
           </ul>
@@ -137,7 +137,7 @@ const Navbar = () => {
                   className="text-white font-bold text-3xl pb-6 hover:cursor-pointer"
                   onClick={() => setNav(false)}
                 >
-            {/* <img className=" md:ml-8 lg:ml-8"
+                  {/* <img className=" md:ml-8 lg:ml-8"
               src="#"
               alt="Foxcontinental"
           
