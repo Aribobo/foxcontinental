@@ -76,7 +76,7 @@ const Hero = () => {
         <div className=" hidden sm:flex gap-4  ml-4 lg:ml-20 w-full">
           <p className="py-16 sm:py-12">
             {" "}
-            <a href="mailto:iphounditonline@gmail.com">
+            <a href="mailto:foxcontinental@gmail.com">
               <AiOutlineMail
                 size={30}
                 className=" flex text-3xl cursor-pointer text-[#fd7062] hover:text-[#ff6a00]"
@@ -87,13 +87,13 @@ const Hero = () => {
           <p className="py-8 text-sm text-start lg:text-xl md:text-2xl">
             <span className="text-bold text-[#4ab9cf]"> {t('quick contact')}</span>
             <br></br>
-            <span className="text-[#1f425d]">eliteliveries@gmail.com</span>
+            <span className="text-[#1f425d]">foxcontinental@gmail.com</span>
           </p>
         </div>
         <div className="hidden sm:flex gap-4  ml-10 lg:ml-20 w-full">
           <p className="py-16 sm:py-12">
             {" "}
-            <a href="mailto:ofoetnigltd@gmail.com">
+            <a href="mailto:foxcontinentald@gmail.com">
               <MdLocationOn
                 size={30}
                 className=" flex text-3xl cursor-pointer text-[#fd7062] hover:text-[#ff6a00]"
@@ -104,7 +104,7 @@ const Hero = () => {
           <p className="py-8 text-sm text-start text-bold lg:text-xl md:text-2xl">
             <span className="text-bold text-[#4ab9cf]  "> {t('our location')}</span>
             <br></br>
-            <span className="text-[#1f425d]">London,Uk</span>
+            <span className="text-[#1f425d]"> Miami Florida,United States of America</span>
           </p>
           {/* end here */}
         </div>
@@ -116,7 +116,7 @@ const Hero = () => {
           <div className="ml-4 flex text-start items-start ">
             <p className="py-12 px-2">
               {" "}
-              <a href="mailto:ofoetnigltd@gmail.com">
+              <a href="mailto:foxcontinental@gmail.com">
                 <AiOutlineMail
                   size={30}
                   className="flex text-3xl cursor-pointer text-[#fd7062] hover:text-[#ff6a00]"
@@ -131,7 +131,7 @@ const Hero = () => {
               </span>
               <br></br>
               <span className="text-[#1f425d]">
-                Email:Foxdeliveries@gmail.com
+                Email:Foxcontinental@gmail.com
               </span>
             </p>
           </div>
@@ -150,7 +150,7 @@ const Hero = () => {
               </span>
               <br></br>
               <span className="text-[#1f425d]">
-                50 kingsway London,United kingdom
+                Miami Florida,United States of America
               </span>
             </p>
           </div>

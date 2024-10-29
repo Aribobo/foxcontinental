@@ -7,7 +7,7 @@ import { useTranslation } from "react-i18next";
 const Testimonials = () => {
   const {t} = useTranslation();
   return (
-    <div className="w-full bg-white">
+    <div id ="testimonials" className="w-full bg-white">
       <div className="text-bold text-2xl text-center justify-center pt-8 lg:text-4xl md:text-4xl mt-8">
         <span className="text-[#1f425d]">{t('client')} </span>
         <span className="text-[#4ab9cf] "> {t('feedback')} </span>

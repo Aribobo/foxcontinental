@@ -24,20 +24,20 @@ const Footer = () => {
             <ul>
               <Link href="/#home">
                 <p className=" flex  font-bold text-3xl pb-6 justify-center items-center text-white">
-                  Ofo<span className="text-[#fd7062]">et</span>
+                  Fo<span className="text-[#fd7062]">x</span>
                 </p>
               </Link>
               <div className="flex gap-6 pb-5 justify-center items-center">
-                <a href="https://www.facebook.com/profile.php?id=100063884890800">
+                <a href="#">
                   <FaFacebook className=" flex text-3xl cursor-pointer hover:text-[#4ab9cf]" />
                 </a>
-                <a href="mailto:ofoetnigltd@gmail.com">
+                <a href="mailto:foxcontinental@gmail.com">
                   <AiOutlineMail className=" flex text-3xl cursor-pointer hover:text-[#fd7062] " />
                 </a>
-                <a href=" https://wa.me/+2348032807393">
+                <a href=" https://wa.me/+2349063899239">
                   <FaWhatsapp className=" flex text-3xl cursor-pointer hover:text-green-700" />
                 </a>
-                <a href="tel:+2348032807393">
+                <a href="tel:+2349063899239">
                   <FiPhoneCall className=" flex text-3xl cursor-pointer hover:text-[#fd7062]" />
                 </a>
               </div>
@@ -51,18 +51,21 @@ const Footer = () => {
               <p className=" flex text-start font-bold text-2xl pb-2 text-[#fd7062] ">
                 {t('service')}
               </p>
-              <li className="  text-start  text-xl  font-semibold py-2 flex ">
-                +2348032807393
+              <li className="  text-start  text-xl  font-semibold py-2 flex hover:text-[#4ab9cf] ">
+              <Link href="/#air">   {t('air freight')} </Link>
               </li>
-              <li className=" text-start  text-xl  font-semibold py-2 flex ">
-                Onuiyi Junction,Nsukka
+              <li className=" text-start  text-xl  font-semibold py-2 flex hover:text-[#4ab9cf]">
+              <Link href="/#ocean"> {t('ocean freight')}</Link>
               </li>
-              <li className="flex text-start  items-center  text-xl  font-semibold py-2 ">
-                ofoetnigltd@gmail.com
+              <li className="flex text-start  items-center  text-xl  font-semibold py-2 hover:text-[#4ab9cf]">
+              <Link href="/#warehouse">  {t('warehousing')}</Link>
+              </li>
+              <li className="flex text-start  items-center  text-xl  font-semibold py-2 hover:text-[#4ab9cf]">
+              <Link href="/#custom">  {t('custom')}</Link>
               </li>
             </ul>
           </div>
-          <div
+          <div 
             id="footer"
             className="p-2 flex justify-center items-center text-white"
           >
@@ -70,14 +73,14 @@ const Footer = () => {
               <p className=" flex text-start font-bold text-2xl pb-2 text-[#fd7062] ">
               {t('company')}
               </p>
-              <li className="  text-start  text-xl  font-semibold py-2 flex ">
-                +2348032807393
+              <li className="  text-start  text-xl  font-semibold py-2 flex  hover:text-[#4ab9cf]">
+              <Link href="/#about"> {t('about')}</Link>
               </li>
-              <li className=" text-start  text-xl  font-semibold py-2 flex ">
-                Onuiyi Junction,Nsukka
+              <li className=" text-start  text-xl  font-semibold py-2 flex hover:text-[#4ab9cf] ">
+              <Link href="/#blogs"> {t('blog')}</Link>
               </li>
-              <li className="flex text-start  items-center  text-xl  font-semibold py-2 ">
-                ofoetnigltd@gmail.com
+              <li className="flex text-start  items-center  text-xl  font-semibold py-2 hover:text-[#4ab9cf]">
+              <Link href="/#testimonials">{t('testimonial')}</Link>
               </li>
             </ul>
           </div>
@@ -91,20 +94,20 @@ const Footer = () => {
               {t('contact')}
               </p>
               <li className="  text-start  text-xl  font-semibold py-2 flex ">
-                +2348032807393
+               (Company number)
               </li>
               <li className=" text-start  text-xl  font-semibold py-2 flex ">
-                Onuiyi Junction,Nsukka
+                (company adress)
               </li>
               <li className="flex text-start  items-center  text-xl  font-semibold py-2 ">
-                ofoetnigltd@gmail.com
+              (Company email)
               </li>
             </ul>
           </div>
         </div>
         <div className="flex flex-col justify-center items-center text-center text-white p-5 bg-[#1f425d]">
           <h5 className="  font-semibold">
-            © 2023 Ofo<span className="text-[#fd7062]">et</span> || All rights
+            © 2024 Fox<span className="text-[#fd7062]">continental</span> || All rights
             reserved
           </h5>
         </div>

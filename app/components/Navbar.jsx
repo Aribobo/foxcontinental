@@ -71,8 +71,8 @@ const Navbar = () => {
             className="font-bold text-3xl pb-6 hover:cursor-pointer py-4"
           >
             {/* <img className=" md:ml-8 lg:ml-8"
-              src="https://eliteworldwidedelivery.com/wp-content/uploads/2024/01/20240109_022759_0000-removebg-preview.png"
-              alt="Elite worldwide delivery"
+              src="#"
+              alt="Foxcontinental"
           
             >
           
@@ -88,22 +88,22 @@ const Navbar = () => {
              {t('home')}
               </li>
             </Link>
-            <Link href="/About">
+            <Link href="/#about">
               <li className="ml-10 font-bold uppercase hover:border-b py-2">
               {t('about')}
               </li>
             </Link>
-            <Link href="/#projects ">
+            <Link href="/#services ">
               <li className="ml-10 font-bold uppercase hover:border-b py-2">
                 {t('service')}
               </li>
             </Link>
-            <Link href="/#services">
+            <Link href="/#footer">
               <li className="ml-10 font-bold uppercase hover:border-b py-2">
               {t('contact')}
               </li>
             </Link>
-            <Link href="/#footer">
+            <Link href="/#home">
               <li className="ml-10 font-bold uppercase hover:border-b py-2">
               {t('tracking')}
               </li>
@@ -137,9 +137,11 @@ const Navbar = () => {
                   className="text-white font-bold text-3xl pb-6 hover:cursor-pointer"
                   onClick={() => setNav(false)}
                 >
-                  {/* <img src="https://eliteworldwidedelivery.com/wp-content/uploads/2024/01/20240109_022759_0000-removebg-preview.png"
-             alt="Elite worldwide delivery">
-
+            {/* <img className=" md:ml-8 lg:ml-8"
+              src="#"
+              alt="Foxcontinental"
+          
+            >
              </img> */}
                 </p>
               </Link>
@@ -161,7 +163,7 @@ const Navbar = () => {
           </div>
           <div className="py-4 flex flex-col text-white">
             <ul className="uppercase">
-              <Link href="#">
+              <Link href="/#home">
                 <li
                   className="py-2 text-md border-b border-gray-500"
                   onClick={() => setNav(false)}
@@ -169,7 +171,7 @@ const Navbar = () => {
                   Home
                 </li>
               </Link>
-              <Link href="/About">
+              <Link href="/#about">
                 <li
                   className="py-2 text-md border-b border-gray-500"
                   onClick={() => setNav(false)}
@@ -177,7 +179,7 @@ const Navbar = () => {
                   about
                 </li>
               </Link>
-              <Link href="/#projects ">
+              <Link href="/#services ">
                 <li
                   className="py-2 text-md border-b border-gray-500"
                   onClick={() => setNav(false)}
@@ -186,7 +188,7 @@ const Navbar = () => {
                 </li>
               </Link>
 
-              <Link href="/#services">
+              <Link href="/#footer">
                 <li
                   className="py-2 text-md border-b border-gray-500"
                   onClick={() => setNav(false)}
@@ -194,7 +196,7 @@ const Navbar = () => {
                   contact us
                 </li>
               </Link>
-              <Link href="/#footer">
+              <Link href="/#home">
                 <li
                   className="py-2 text-md border-b border-gray-500"
                   onClick={() => setNav(false)}
@@ -210,10 +212,10 @@ const Navbar = () => {
           </div>
 
           <div className="flex gap-6 pb-5 justify-start items-center text-white">
-            <a href="https://www.facebook.com/profile.php?id=100093083571109">
+            <a href="#">
               <FaFacebook className=" flex text-3xl cursor-pointer hover:text-blue-700" />
             </a>
-            <a href="mailto:iphounditonline@gmail.com">
+            <a href="mailto:foxcontinental@gmail.com">
               <AiOutlineMail className=" flex text-3xl cursor-pointer hover:text-[#fd7e14]" />
             </a>
             <a href=" https://wa.me/+2349063899239">

@@ -7,7 +7,7 @@ const Blog = () => {
   const {t} = useTranslation();
   return (
     <div className="w-full bg-[#fbf9fa] mt-4">
-      <div id="services" className="w-full h-auto text-center">
+      <div id="blogs" className="w-full h-auto text-center">
         <div className="text-bold text-2xl text-center justify-center lg:text-4xl md:text-4xl">
           <br></br>
           <span className="text-[#1f425d]">{t('blog')} & </span>
@@ -32,7 +32,7 @@ const Blog = () => {
               </p>
             </div>
             <div className="mb-4 grid grid-cols md:grid-cols-2 sm:grid-cols-2 lg:grid-cols-2 justify-around w-full mt-10">
-              <div className=""> february 12, 2024</div>
+              <div className=""> July 02, 2024</div>
               <div className="text-[#fd7062]"> Admin</div>
             </div>
           </div>
@@ -51,7 +51,7 @@ const Blog = () => {
              
             </div>
             <div className="mb-4 grid grid-cols md:grid-cols-2 sm:grid-cols-2 lg:grid-cols-2 justify-around w-full mt-10">
-              <div className=""> february 12, 2024</div>
+              <div className=""> September 23, 2023</div>
               <div className="text-[#fd7062]"> Admin</div>
             </div>
           </div>
@@ -69,7 +69,7 @@ const Blog = () => {
               </p>
             </div>
             <div className="mb-4 grid grid-cols md:grid-cols-2 sm:grid-cols-2 lg:grid-cols-2 justify-around w-full mt-10">
-              <div className=""> february 12, 2024</div>
+              <div className=""> february 12, 2021</div>
               <div className="text-[#fd7062]"> Admin</div>
             </div>
           </div>

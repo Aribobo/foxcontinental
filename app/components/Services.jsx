@@ -11,8 +11,8 @@ const Services = () => {
         <div className="text-bold text-2xl text-center justify-center lg:text-4xl md:text-4xl">
           <br></br>
 
-          <span className="text-white">{t('what')}</span>
-          <span className="text-[#4ab9cf] ">{t('do')}</span>
+          <span className="text-white">{t('what')}</span> 
+          <span className="text-[#4ab9cf] "> {t('do')}</span>
           <p className="pb-2  mt-2 mb-2 text-2xl  text-[#ff6a00] text-bold ">
             {" "}
             <span className="text-[#fd7062]">{t('feature')}</span>
@@ -22,7 +22,7 @@ const Services = () => {
           className="ml-4 mr-4 mb-12 grid grid-cols md:grid-cols-2gap-4 
         sm:grid-cols-2 lg:grid-cols-3 gap-4"
         >
-          <div
+          <div id="air"
             className="relative group shadow-gray-600 overflow-hidden  shadow-md ml-2 mr-2 
            transition hover:shadow
            ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:duration-300"
@@ -41,7 +41,7 @@ const Services = () => {
               </p>
             </div>
           </div>
-          <div
+          <div id="ocean"
             className="relative group shadow-gray-600 overflow-hidden  shadow-md ml-2 mr-2 
            transition hover:shadow
            ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:duration-300"
@@ -53,14 +53,14 @@ const Services = () => {
                height={20}
                alt="ocean freight"
             />
-            <div className="py-4 px-6 bg-[#1f425d] ">
+            <div  className="py-4 px-6 bg-[#1f425d] ">
               <p className=" text-start text-white text-2xl">{t('ocean freight')}</p>
               <p className="text-start text-white">
               {t('ocean')}
               </p>
             </div>
           </div>
-          <div
+          <div id="road" 
             className="relative group shadow-gray-600 overflow-hidden  shadow-md ml-2 mr-2 
            transition hover:shadow
          ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:duration-300"
@@ -79,7 +79,7 @@ const Services = () => {
               </p>
             </div>
           </div>
-          <div
+          <div  id="warehouse"
             className="relative group shadow-gray-600 overflow-hidden  shadow-md ml-2 mr-2 
            transition hover:shadow
            ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:duration-300"
@@ -119,7 +119,7 @@ const Services = () => {
               </p>
             </div>
           </div>
-          <div
+          <div id="custom"
             className="relative group shadow-gray-600 overflow-hidden  shadow-md ml-2 mr-2 
            transition hover:shadow 
            ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:duration-300 hover:bg-white
