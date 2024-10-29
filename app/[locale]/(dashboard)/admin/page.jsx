@@ -48,7 +48,8 @@ const Consignment = () => {
             "<input value='' id='swal-input1' class='swal2-input' placeholder='Status'>" +
             "<input value='' id='swal-input2' class='swal2-input' placeholder=' Package Location'>" +
             "<input value='' id='swal-input3' class='swal2-input' placeholder=' Delivery Date'>" +
-            "<input value='' id='swal-input4' class='swal2-input' placeholder='remark'>",
+            "<input value='' id='swal-input4' class='swal2-input' placeholder='remark'>"+
+            "<input value='' id='swal-input5' class='swal2-input' placeholder='Currenr Location'>",
     
           focusConfirm: false,
           preConfirm: () => {
@@ -59,6 +60,8 @@ const Consignment = () => {
                 deliveryDate: document.getElementById("swal-input3").value,
                 packageLocation: document.getElementById("swal-input2").value,
                 remark: document.getElementById("swal-input4").value,
+                currentLocation: document.getElementById("swal-input5").value,
+
               },
               
             ];
@@ -171,6 +174,9 @@ const Consignment = () => {
                     Quantity
                 </th>
                 <th scope="col" className="px-6 py-3">
+                    Current Location
+                </th>
+                <th scope="col" className="px-6 py-3">
                     Service Type
                 </th>
                 <th scope="col" className="px-6 py-3">
@@ -227,6 +233,9 @@ const Consignment = () => {
                 </td>
                 <td className="px-6 py-4">
                 {logistic.quantity}
+                </td>
+                <td className="px-6 py-4">
+                {logistic.currentLocation}
                 </td>
                 <td className="px-6 py-4">
                 {logistic.serviceType}

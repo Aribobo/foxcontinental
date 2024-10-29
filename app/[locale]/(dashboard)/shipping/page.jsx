@@ -10,6 +10,7 @@ import{useSession} from "next-auth/react"
 
 const ShippingForm = () => {
   const [stand, setStand] = useState("");
+  const [currentLocation, setCurrentLocation] = useState("");
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [trackId, setTrackId] = useState("");
@@ -56,6 +57,7 @@ const ShippingForm = () => {
         senderAddress,
         receiverAddress,
         remark,
+        currentLocation,
       });
       console.log(result.data);
 
@@ -77,7 +79,7 @@ const ShippingForm = () => {
       </p>
       <form
         onSubmit={handleFormData}
-        className=" ml-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-20"
+        className=" ml-20 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-20 justify-between"
       >
         <div className="col-span-1">
           <label
@@ -92,7 +94,7 @@ const ShippingForm = () => {
             onChange={(e) => setName(e.target.value)}
             type="text"
             id="Rname"
-            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+            className="mt-1 block w-40 px-3 py-2  border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
             placeholder="Rebecca Jenkhins"
           />
         </div>
@@ -109,7 +111,7 @@ const ShippingForm = () => {
             onChange={(e) => setEmail(e.target.value)}
             type="email"
             id="email"
-            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+            className="mt-1 block w-40 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
             placeholder="you@example.com"
           />
         </div>
@@ -125,8 +127,24 @@ const ShippingForm = () => {
             onChange={(e) => setTrackId(e.target.value)}
             type="text"
             id="Track"
-            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+            className="mt-1 block w-40 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
             placeholder="l82434895kh"
+          />
+        </div>
+        <div className="col-span-1">
+          <label
+            htmlFor="Track"
+            className="block text-sm font-medium text-gray-700"
+          >
+            Current Location
+          </label>
+          <input
+            value={currentLocation}
+            onChange={(e) => setCurrentLocation(e.target.value)}
+            type="text"
+            id="currentLocation"
+            className="mt-1 block w-40 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+            placeholder="present location"
           />
         </div>
         <div className="col-span-1">
@@ -141,7 +159,7 @@ const ShippingForm = () => {
             onChange={(e) => setShipmentDate(e.target.value)}
             type="text"
             id="Sdate"
-            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+            className="mt-1 block w-40 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
             placeholder="wed, 12 August, 2024 9:15"
           />
         </div>
@@ -157,7 +175,7 @@ const ShippingForm = () => {
             onChange={(e) => setStand(e.target.value)}
             type="text"
             id="Status"
-            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+            className="mt-1 block w-40 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
             placeholder="In transit, On hold"
           />
         </div>
@@ -173,7 +191,7 @@ const ShippingForm = () => {
             onChange={(e) => setPackageName(e.target.value)}
             type="text"
             id="Pname"
-            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+            className="mt-1 block w-40 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
             placeholder="Jewery, Smartphone, clothe"
           />
         </div>
@@ -189,7 +207,7 @@ const ShippingForm = () => {
             onChange={(e) => setDeliveryDate(e.target.value)}
             type="text"
             id="Ddate"
-            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+            className="mt-1 block w-40 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
             placeholder="wed, 12 August, 2024 9:15"
           />
         </div>
@@ -205,7 +223,7 @@ const ShippingForm = () => {
             onChange={(e) => setWeight(e.target.value)}
             type="number"
             id="weight"
-            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+            className="mt-1 block w-40 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
             placeholder="8Kg"
           />
         </div>
@@ -221,7 +239,7 @@ const ShippingForm = () => {
             onChange={(e) => setQuantity(e.target.value)}
             type="number"
             id="quantity"
-            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+            className="mt-1 block w-40 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
             placeholder="5"
           />
         </div>
@@ -237,7 +255,7 @@ const ShippingForm = () => {
             onChange={(e) => setServiceType(e.target.value)}
             type="text"
             id="Stype"
-            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+            className="mt-1 block w-40 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
             placeholder="Express, Cargo"
           />
         </div>
@@ -253,7 +271,7 @@ const ShippingForm = () => {
             onChange={(e) => setPackageLocation(e.target.value)}
             type="text"
             id="Plocation"
-            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+            className="mt-1 block w-40 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
             placeholder="London, UK"
           />
         </div>
@@ -269,7 +287,7 @@ const ShippingForm = () => {
             onChange={(e) => setSenderName(e.target.value)}
             type="text"
             id="Sname"
-            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+            className="mt-1 block w-40 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
             placeholder="Richard Baker"
           />
         </div>
@@ -285,7 +303,7 @@ const ShippingForm = () => {
             onChange={(e) => setSenderAddress(e.target.value)}
             type="text"
             id="Saddress"
-            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+            className="mt-1 block w-40 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
             placeholder="Doncaster, Uk"
           />
         </div>
@@ -301,7 +319,7 @@ const ShippingForm = () => {
             onChange={(e) => setReceiverAddress(e.target.value)}
             type="text"
             id="Raddress"
-            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+            className="mt-1 block w-40 px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
             placeholder="5 kings way Reading"
           />
         </div>
@@ -317,7 +335,7 @@ const ShippingForm = () => {
             onChange={(e) => setRemark(e.target.value)}
             type="text"
             id="Remark"
-            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+            className="mt-1 block w-40 px-3  py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
             placeholder="Package in good condition"
           />
         </div>
@@ -326,7 +344,7 @@ const ShippingForm = () => {
           <button
             type="submit"
             disabled={loader}
-            className="inline-flex items-center px-20 py-4 mt-2 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+            className="inline-flex items-center ml-20 px-20 py-4 mt-2 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
           >
             {loader ? "Uploading...." : "Submit"}
           </button>

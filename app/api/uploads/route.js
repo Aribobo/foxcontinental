@@ -27,7 +27,8 @@ export async function  POST (req, res) {
      senderName:body.senderName,
      senderAddress:body.senderAddress,
      receiverAddress:body.receiverAddress,
-     remark:body.remark
+     remark:body.remark,
+     currentLocation:body.currentLocation
     });
   
    await logistic?.save();

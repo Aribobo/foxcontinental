@@ -56,6 +56,9 @@ const logisticSchema = new Schema(
     remark: {
       type: String,
     },
+    currentLocation: {
+      type: String,
+    },
   },
   { timestamps: true }
 );
