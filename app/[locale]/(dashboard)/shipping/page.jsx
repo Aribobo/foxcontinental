@@ -79,7 +79,7 @@ const ShippingForm = () => {
       </p>
       <form
         onSubmit={handleFormData}
-        className=" ml-20 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-20 justify-between"
+        className=" ml-16 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-20 justify-between"
       >
         <div className="col-span-1">
           <label

@@ -8,7 +8,7 @@ const Overview = () => {
   return (
     <div id="about" className="w-full bg-white">
       <div className="text-bold text-2xl text-center justify-center pt-8 lg:text-4xl md:text-4xl">
-        <span className="text-[#1f425d]">{t("company")} </span>
+        <span className="text-[#4ab9cf]">{t("company")} </span>
         <span className="text-[#4ab9cf] ">{t("overview")}</span>
       </div>
       <div className="grid grid-cols lg:grid-cols-3">

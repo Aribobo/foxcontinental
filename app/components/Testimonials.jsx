@@ -9,7 +9,7 @@ const Testimonials = () => {
   return (
     <div id="testimonials" className="w-full bg-white">
       <div className="text-bold text-2xl text-center justify-center pt-8 lg:text-4xl md:text-4xl mt-8">
-        <span className="text-[#1f425d]">{t("client")} </span>
+        <span className="text-[#4ab9cf]">{t("client")} </span>
         <span className="text-[#4ab9cf] "> {t("feedback")} </span>
         <p className="pb-2  mt-2 mb-2 text-2xl  text-[#ff6a00] text-bold ">
           {" "}

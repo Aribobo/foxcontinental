@@ -10,7 +10,7 @@ const Blog = () => {
       <div id="blogs" className="w-full h-auto text-center">
         <div className="text-bold text-2xl text-center justify-center lg:text-4xl md:text-4xl">
           <br></br>
-          <span className="text-[#1f425d]">{t("blog")} & </span>
+          <span className="text-[#4ab9cf]">{t("blog")} & </span>
           <span className="text-[#4ab9cf] ">{t("insight")}</span>
           <p className="pb-2  mt-2 mb-2 text-2xl  text-[#ff6a00] text-bold ">
             {" "}
