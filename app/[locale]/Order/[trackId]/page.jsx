@@ -213,14 +213,10 @@ const Order = async ({ params }) => {
           <br></br>
           <br></br>
           <br></br>
-          <span className="text-[#1f425d]">{t("track")}</span>
-          <span className="text-[#fd7062]"> & </span>{" "}
+          <span className="text-[#4ab9cf]">{t("track")}</span>
+          <span className="text-[#4ab9cf]"> & </span>{" "}
           <span className="text-[#4ab9cf] ">{t("trace")}</span>
-          <p className="pb-2  mt-2 mb-2 text-2xl  text-[#ff6a00] text-bold ">
-            {" "}
-            <span className="text-[#fd7062]">{t("track")}..........</span>
-          </p>
-          <p className="text-2xl text-[#1f425d] mb-8">{t("error")}</p>
+          <p className="text-2xl text-[#1f425d] mb-8"> <span className="text-[#fd7062]">{t("error")} </span></p>
           <div className="text-xl justify-center items-center">
             <Track />
           </div>

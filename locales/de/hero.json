@@ -23,7 +23,7 @@
   "origin":"Herkunft",
   "track": " verfolgen",
   "trace": "Spur",
-  "error":"Fehler: Ungültige Tracking-ID, Sie müssen die falsche Tracking-ID eingegeben haben.",
+  "error":"Fehler:Ungültige Sendungsverfolgungs-ID",
   "st": "Dienstleistungsart" ,
   "qt":"Menge",
   "rmk":"Bemerkung",

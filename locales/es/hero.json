@@ -57,7 +57,7 @@
   "status":"Estado",
   "track": "rastrear",
   "trace": "traza",
-  "error":"Error: ID de seguimiento inválido, debe haber introducido el ID de seguimiento incorrecto",
+  "error":"Error:ID de seguimiento inválido",
   "testimonial": "Testimonios",
   "tracking": "Seguimiento",
   "trans": "El transporte es un componente vital de la logística. Ya sea por tierra, aire o mar, el modo de transporte elegido puede afectar la velocidad de entrega, el costo y el impacto ambiental. El auge del transporte multimodal que combina diferentes métodos de transporte permite a las empresas optimizar sus cadenas de suministro y mejorar los tiempos de entrega. Innovaciones como los vehículos autónomos y las entregas con drones también están en el horizonte y prometen revolucionar la forma en que se transportan las mercancías.",

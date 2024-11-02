@@ -23,7 +23,7 @@
   "wt":"Peso",
   "track": "Rastrear",
   "trace": "traço",
-  "error":"Erro: ID de rastreamento inválido, você deve ter digitado o ID de rastreamento errado.",
+  "error":"Erro:ID de rastreamento inválido",
   "loc":"Localização",
   "sn":"Nome do remetente",
   "rmk":"Observação",

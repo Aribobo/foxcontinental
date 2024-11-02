@@ -15,7 +15,7 @@ const Track = () => {
           type="text"
           id="Track"
           className="mt-1 ml-10 w-20 block lg:w-45 px-3 py-2 pb-2 border border-[#1f425d] rounded-md shadow-sm focus:outline-none focus:ring-[#4ab9cf] focus:border-[#4ab9cf] sm:text-sm"
-          placeholder="l82434895kh"
+         placeholder="l824F34895UD"
         />
         <Link href={`/Order/${trackId}`}>
           {" "}
