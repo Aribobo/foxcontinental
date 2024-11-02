@@ -71,7 +71,7 @@ const Hero = () => {
         <div className=" hidden sm:flex gap-4  ml-4 lg:ml-20 w-full">
           <p className="py-16 sm:py-12">
             {" "}
-            <a href="mailto:foxcontinental@gmail.com">
+            <a href="mailto:support@foxcontinental.com">
               <AiOutlineMail
                 size={30}
                 className=" flex text-3xl cursor-pointer text-[#fd7062] hover:text-[#ff6a00]"
@@ -85,7 +85,7 @@ const Hero = () => {
               {t("quick contact")}
             </span>
             <br></br>
-            <span className="text-[#1f425d]">foxcontinental@gmail.com</span>
+            <span className="text-[#1f425d]">support@foxcontinental.com</span>
           </p>
         </div>
         <div className="hidden sm:flex gap-4  ml-10 lg:ml-20 w-full">
@@ -120,7 +120,7 @@ const Hero = () => {
           <div className="ml-4 flex text-start items-start ">
             <p className="py-12 px-2">
               {" "}
-              <a href="mailto:foxcontinental@gmail.com">
+              <a href="mailto:support@foxcontinental.com">
                 <AiOutlineMail
                   size={30}
                   className="flex text-3xl cursor-pointer text-[#fd7062] hover:text-[#ff6a00]"
@@ -135,7 +135,7 @@ const Hero = () => {
               </span>
               <br></br>
               <span className="text-[#1f425d]">
-                Email:Foxcontinental@gmail.com
+                Email:support@foxcontinental.com
               </span>
             </p>
           </div>

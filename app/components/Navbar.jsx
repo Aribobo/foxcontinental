@@ -70,13 +70,14 @@ const Navbar = () => {
             style={{ color: `${LinkColor}` }}
             className="font-bold text-3xl pb-6 hover:cursor-pointer py-4"
           >
-            {/* <img className=" md:ml-8 lg:ml-8"
-              src="#"
+            <Image className=" md:ml-8 lg:ml-8"
+              src="https://res.cloudinary.com/ddukktwrv/image/upload/v1730558573/FoxContinental_2_lswm7m.png"
               alt="Foxcontinental"
+              height={200}
+              width={300}
+            />
           
-            >
           
-            </img> */}
           </p>
         </Link>
 
@@ -137,12 +138,13 @@ const Navbar = () => {
                   className="text-white font-bold text-3xl pb-6 hover:cursor-pointer"
                   onClick={() => setNav(false)}
                 >
-                  {/* <img className=" md:ml-8 lg:ml-8"
-              src="#"
+                   {/* <img className=" md:ml-8 lg:ml-8"
+              src="https://res.cloudinary.com/ddukktwrv/image/upload/v1730558573/FoxContinental_2_lswm7m.png"
               alt="Foxcontinental"
           
             >
-             </img> */}
+          
+            </img> */}
                 </p>
               </Link>
 

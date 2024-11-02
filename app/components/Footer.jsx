@@ -20,18 +20,13 @@ const Footer = () => {
           className=" w-full grid grid-cols md:grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 
           justify-center items-center p-20  "
         >
-          <div className="p-2 text-white">
+          <div className="ml-10 p-2 w-20 text-white">
             <ul>
-              <Link href="/#home">
-                <p className=" flex  font-bold text-3xl pb-6 justify-center items-center text-white">
-                  Fo<span className="text-[#fd7062]">x</span>
-                </p>
-              </Link>
               <div className="flex gap-6 pb-5 justify-center items-center">
                 <a href="#">
                   <FaFacebook className=" flex text-3xl cursor-pointer hover:text-[#4ab9cf]" />
                 </a>
-                <a href="mailto:foxcontinental@gmail.com">
+                <a href="mailto:support@foxcontinental.com">
                   <AiOutlineMail className=" flex text-3xl cursor-pointer hover:text-[#fd7062] " />
                 </a>
                 <a href=" https://wa.me/+2349063899239">
@@ -100,7 +95,7 @@ const Footer = () => {
                 (company adress)
               </li>
               <li className="flex text-start  items-center  text-xl  font-semibold py-2 ">
-                (Company email)
+              support@foxcontinental.com
               </li>
             </ul>
           </div>
