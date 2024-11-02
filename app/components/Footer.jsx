@@ -20,7 +20,7 @@ const Footer = () => {
           className=" w-full grid grid-cols md:grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 
           justify-center items-center p-20  "
         >
-          <div className="ml-10 p-2 w-20 text-white">
+          <div className="ml-20 p-2 w-20 text-white justify-center items-center">
             <ul>
               <div className="flex gap-6 pb-5 justify-center items-center">
                 <a href="#">
