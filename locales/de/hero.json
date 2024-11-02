@@ -23,7 +23,7 @@
   "origin":"Herkunft",
   "track": " verfolgen",
   "trace": "Spur",
-  "error":"Fehler:Ungültige Sendungsverfolgungs-ID",
+  "error":"Fehler! Ungültige Sendungsverfolgungs-ID",
   "st": "Dienstleistungsart" ,
   "qt":"Menge",
   "rmk":"Bemerkung",

@@ -23,7 +23,7 @@
   "wt":"Peso",
   "track": "Rastrear",
   "trace": "traço",
-  "error":"Erro:ID de rastreamento inválido",
+  "error":"Erro! ID de rastreamento inválido",
   "loc":"Localização",
   "sn":"Nome do remetente",
   "rmk":"Observação",
