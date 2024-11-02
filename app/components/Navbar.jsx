@@ -70,7 +70,7 @@ const Navbar = () => {
             style={{ color: `${LinkColor}` }}
             className="font-bold text-3xl pb-6 hover:cursor-pointer py-4"
           >
-            <Image className=" lg:hidden md:ml-8 lg:ml-8"
+            <Image className="  md:ml-8 lg:ml-8"
               src="https://res.cloudinary.com/ddukktwrv/image/upload/v1730558573/FoxContinental_2_lswm7m.png"
               alt="Foxcontinental"
               height={1000}
