@@ -49,7 +49,7 @@ const Consignment = () => {
             // "<input value='' id='swal-input2' class='swal2-input' placeholder=' Package Location'>" +
             "<input value='' id='swal-input3' class='swal2-input' placeholder=' Delivery Date'>" +
             "<input value='' id='swal-input4' class='swal2-input' placeholder='remark'>"+
-            "<input value='' id='swal-input5' class='swal2-input' placeholder='Currenr Location'>",
+            "<input value='' id='swal-input5' class='swal2-input' placeholder='Current Location'>",
     
           focusConfirm: false,
           preConfirm: () => {
