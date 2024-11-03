@@ -217,7 +217,7 @@ const Navbar = () => {
             <a href="#">
               <FaFacebook className=" flex text-3xl cursor-pointer hover:text-blue-700" />
             </a>
-            <a href="mailto:foxcontinental@gmail.com">
+            <a href="mailto:support@foxcontinental.com">
               <AiOutlineMail className=" flex text-3xl cursor-pointer hover:text-[#fd7e14]" />
             </a>
             <a href=" https://wa.me/+2349063899239">
