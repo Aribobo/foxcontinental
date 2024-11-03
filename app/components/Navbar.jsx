@@ -74,7 +74,7 @@ const Navbar = () => {
               src="https://res.cloudinary.com/ddukktwrv/image/upload/v1730558573/FoxContinental_2_lswm7m.png"
               alt="Foxcontinental"
               height={100}
-              width={300}
+              width={330}
             />
           
           
