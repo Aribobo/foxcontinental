@@ -8,7 +8,7 @@ const Order = async ({ params }) => {
   const { t } = await initTranslations(locale, ["hero"]);
 
   console.log("Received trackId:", trackId);
-  const url = `https://foxsolution.vercel.app/api/track/${trackId}`;
+  const url = `https://foxswift.vercel.app/api/track/${trackId}`;
 
   try {
     const response = await axios.get(url);
