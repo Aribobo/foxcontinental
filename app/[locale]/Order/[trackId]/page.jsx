@@ -27,8 +27,8 @@ const Order = async ({ params }) => {
                 <br></br>
                 <br></br>
                 <br></br>
-                <span className="text-white">{t("track")}</span>
-                <span className="text-[#fd7062]"> & </span>{" "}
+                <span className="text-[#4ab9cf] ">{t("track")}</span>
+                <span className="text-[#4ab9cf] "> & </span>{" "}
                 <span className="text-[#4ab9cf] ">{t("trace")}</span>
                 <p className="pb-2  mt-2 mb-2 text-2xl  text-[#ff6a00] text-bold ">
                   {" "}
