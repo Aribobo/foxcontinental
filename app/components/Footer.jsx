@@ -29,10 +29,10 @@ const Footer = () => {
                 <a href="mailto:support@foxcontinental.com">
                   <AiOutlineMail className=" flex text-3xl cursor-pointer hover:text-[#fd7062] " />
                 </a>
-                <a href=" https://wa.me/+2349063899239">
+                <a href=" https://wa.me/+17123517895">
                   <FaWhatsapp className=" flex text-3xl cursor-pointer hover:text-green-700" />
                 </a>
-                <a href="tel:+2349063899239">
+                <a href="tel:+17123517895">
                   <FiPhoneCall className=" flex text-3xl cursor-pointer hover:text-[#fd7062]" />
                 </a>
               </div>
@@ -89,10 +89,10 @@ const Footer = () => {
                 {t("contact")}
               </p>
               <li className="  text-start  text-xl  font-semibold py-2 flex ">
-                (Company number)
+               +1 7123517895
               </li>
               <li className=" text-start  text-xl  font-semibold py-2 flex ">
-                (company adress)
+               America Way 2nd Floor Miami,FL 33132 United States 
               </li>
               <li className="flex text-start  items-center  text-xl  font-semibold py-2 ">
               support@foxcontinental.com

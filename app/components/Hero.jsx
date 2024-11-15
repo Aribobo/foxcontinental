@@ -86,6 +86,8 @@ const Hero = () => {
             </span>
             <br></br>
             <span className="text-[#1f425d]">support@foxcontinental.com</span>
+            <br></br>
+            <span className="text-[#1f425d]"> Phone:+1 7123517895</span>
           </p>
         </div>
         <div className="hidden sm:flex gap-4  ml-10 lg:ml-20 w-full">
@@ -107,7 +109,7 @@ const Hero = () => {
             <br></br>
             <span className="text-[#1f425d]">
               {" "}
-              Miami Florida,United States of America
+              America Way 2nd Floor Miami,FL 33132 United States 
             </span>
           </p>
           {/* end here */}
@@ -137,6 +139,8 @@ const Hero = () => {
               <span className="text-[#1f425d]">
                 Email:support@foxcontinental.com
               </span>
+              <br></br>
+              <span className="text-[#1f425d]"> Phone:+17123517895</span>
             </p>
           </div>
           <div className="ml-4 flex text-end items-end justify-end">
@@ -154,7 +158,7 @@ const Hero = () => {
               </span>
               <br></br>
               <span className="text-[#1f425d]">
-                Miami Florida,United States of America
+              America Way 2nd Floor Miami,FL 33132 United States 
               </span>
             </p>
           </div>

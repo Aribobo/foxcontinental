@@ -220,10 +220,10 @@ const Navbar = () => {
             <a href="mailto:support@foxcontinental.com">
               <AiOutlineMail className=" flex text-3xl cursor-pointer hover:text-[#fd7e14]" />
             </a>
-            <a href=" https://wa.me/+2349063899239">
+            <a href=" https://wa.me/+17123517895">
               <FaWhatsapp className=" flex text-3xl cursor-pointer hover:text-green-700" />
             </a>
-            <a href="tel:+2349063899239">
+            <a href="tel:+17123517895">
               <FiPhoneCall className=" flex text-3xl cursor-pointer hover:text-[#fd7e14]" />
             </a>
           </div>
