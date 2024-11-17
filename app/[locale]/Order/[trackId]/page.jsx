@@ -157,7 +157,7 @@ const Order = async ({ params }) => {
                   <p className="text-start text-bold px-4 py-2 lg:text-xl lg:text-center sm:text-center">
                     {t("dc")}:{" "}
                     <span className="text-[#fd7062]">
-                      {logistic.deliveryDate}
+                      {logistic.deliveryCity}
                     </span>
                   </p>
                 </div>
@@ -192,8 +192,8 @@ const Order = async ({ params }) => {
                   </p>
 
                   <p className="text-start text-bold px-4 py-2 lg:text-xl lg:text-center sm:text-center">
-                    {t("dc")}:
-                    <span className="text-[#fd7062]"> {logistic.deliveryCity}</span>
+                    {t("ds")}:
+                    <span className="text-[#fd7062]"> {logistic.shipmentDate}</span>
                   </p>
                 </div>
               </div>

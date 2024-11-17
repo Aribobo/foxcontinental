@@ -358,11 +358,11 @@ const ShippingForm = () => {
           />
         </div>
 
-        <div className="col-span-1 md:col-span-2 lg:col-span-1 flex justify-center mb-20">
+        <div className="col-span-1">
           <button
             type="submit"
             disabled={loader}
-            className="inline-flex items-center ml-20 px-20 py-4 mt-2 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+            className="inline-flex items-center ml-10 px-2 py-2 mt-2 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
           >
             {loader ? "Uploading...." : "Submit"}
           </button>
