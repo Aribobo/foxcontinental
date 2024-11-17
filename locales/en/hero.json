@@ -17,6 +17,7 @@
   "delivery": "Delivery",
   "do": "We Do",
   "cl": " Package current location",
+  "dc":"Destination City",
   "rmk":"Remark",
   "rn":"Receiver Name",
   "ds":"Date shipped",

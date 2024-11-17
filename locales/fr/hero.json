@@ -23,6 +23,7 @@
   "henry": "Fox Continental a été un véritable atout pour mon entreprise. Leurs services d'expédition et de fret sont constamment fiables, et leur équipe fait tout son possible pour garantir des livraisons à temps. Grâce à eux, je peux me concentrer sur ma croissance, sachant que ma logistique est entre des mains expertes.",
   "rmk": "Remarque",
   "ds": "Date d'expédition",
+  "dc":" Ville de Destination",
   "sd": "Détails d'expédition",
   "dest": "Destination",
   "origin": "Origine",

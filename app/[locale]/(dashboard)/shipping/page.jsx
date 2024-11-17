@@ -10,6 +10,7 @@ import{useSession} from "next-auth/react"
 
 const ShippingForm = () => {
   const [stand, setStand] = useState("");
+  const [deliveryCity, setDeliveryCity] = useState("");
   const [currentLocation, setCurrentLocation] = useState("");
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -58,6 +59,7 @@ const ShippingForm = () => {
         receiverAddress,
         remark,
         currentLocation,
+        deliveryCity,
       });
       console.log(result.data);
 
@@ -335,6 +337,22 @@ const ShippingForm = () => {
             onChange={(e) => setRemark(e.target.value)}
             type="text"
             id="Remark"
+            className="mt-1 block w-40 px-3  py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+            placeholder="Package in good condition"
+          />
+        </div>
+        <div className="col-span-1">
+          <label
+            htmlFor="Delivery City"
+            className="block text-sm font-medium text-gray-700"
+          >
+            Destination City
+          </label>
+          <input
+            value={deliveryCity}
+            onChange={(e) => setDeliveryCity(e.target.value)}
+            type="text"
+            id="Destination City"
             className="mt-1 block w-40 px-3  py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
             placeholder="Package in good condition"
           />

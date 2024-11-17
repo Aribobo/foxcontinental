@@ -32,6 +32,10 @@ const logisticSchema = new Schema(
       type: String,
       required: true,
     },
+    deliveryCity: {
+      type: String,
+      required: true,
+    },
     weight: {
       type: String,
     },

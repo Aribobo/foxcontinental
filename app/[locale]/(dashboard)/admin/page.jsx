@@ -195,6 +195,9 @@ const Consignment = () => {
                     Remark
                 </th>
                 <th scope="col" className="px-6 py-3">
+                    Delivery City
+                </th>
+                <th scope="col" className="px-6 py-3">
                     Edit
                 </th>
                 <th scope="col" className="px-6 py-3">
@@ -254,6 +257,9 @@ const Consignment = () => {
                 </td>
                 <td className="px-6 py-4"> 
                 {logistic.remark}
+                </td>
+                <td className="px-6 py-4"> 
+                {logistic.deliveryCity}
                 </td>
                 <td className="px-6 py-4">
                   <button   onClick={() => handleUpdate(logistic._id)} className="bg-blue-700 text-white font-bold py-2 px-4 rounded">

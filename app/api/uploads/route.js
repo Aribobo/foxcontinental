@@ -28,6 +28,7 @@ export async function  POST (req, res) {
      senderAddress:body.senderAddress,
      receiverAddress:body.receiverAddress,
      remark:body.remark,
+     deliveryCity:body.deliveryCity,
      currentLocation:body.currentLocation
     });
   
