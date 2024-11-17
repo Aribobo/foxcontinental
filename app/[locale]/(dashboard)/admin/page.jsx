@@ -46,7 +46,7 @@ const Consignment = () => {
           html:
         
             "<input value='' id='swal-input1' class='swal2-input' placeholder='Status'>" +
-            // "<input value='' id='swal-input2' class='swal2-input' placeholder=' Package Location'>" +
+             "<input value='' id='swal-input2' class='swal2-input' placeholder=' Delivery City'>" +
             "<input value='' id='swal-input3' class='swal2-input' placeholder=' Delivery Date'>" +
             "<input value='' id='swal-input4' class='swal2-input' placeholder='remark'>"+
             "<input value='' id='swal-input5' class='swal2-input' placeholder='Current Location'>",
@@ -58,7 +58,7 @@ const Consignment = () => {
               
                 stand: document.getElementById("swal-input1").value,
                 deliveryDate: document.getElementById("swal-input3").value,
-                // packageLocation: document.getElementById("swal-input2").value,
+                deliveryCity: document.getElementById("swal-input2").value,
                 remark: document.getElementById("swal-input4").value,
                 currentLocation: document.getElementById("swal-input5").value,
 
