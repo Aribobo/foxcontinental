@@ -117,7 +117,7 @@ const Order = async ({ params }) => {
                   </p>
                   <p className="text-start text-bold px-4 py-2 lg:text-xl lg:text-center sm:text-center">
                     {t("wt")} :{" "}
-                    <span className="text-[#fd7062]"> {logistic.weight} </span>
+                    <span className="text-[#fd7062]"> {logistic.weight} Kg</span>
                   </p>
 
                   <p className="text-start text-bold px-4 py-2 lg:text-xl lg:text-center sm:text-center">
