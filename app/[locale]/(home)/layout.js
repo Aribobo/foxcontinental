@@ -4,8 +4,8 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Fox Continental Deliveries ",
-  description: "world best delivery services",
+  title: "Fox Continental Logistics ",
+  description: "world best logistic and delivery services",
   icons:{
     icon:['/favicon.ico?v=4 '],
     apple:['/apple-touch-icon.png?v=4'],

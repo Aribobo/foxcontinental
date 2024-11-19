@@ -9,7 +9,7 @@ import { SessionProvider } from 'next-auth/react';
 
 const metadata = {
   title: "Welcome admin",
-  description: "Balaga Effect",
+  description: "Admin dashboard",
 };
 
 export default function RootLayout({ children }) {
