@@ -232,7 +232,7 @@ const Consignment = () => {
                 {logistic.deliveryDate}
                 </td>
                 <td className="px-6 py-4">
-                {logistic.weight}
+                {logistic.weight} kg
                 </td>
                 <td className="px-6 py-4">
                 {logistic.quantity}
